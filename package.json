@@ -1,7 +1,7 @@
 {
   "name": "donot-cache",
   "version": "1.0.0",
-  "description": "Base cache - used for developing cache plugins for donot.",
+  "description": "Base abstract class for cache plugins - used for developing cache plugins for donot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
