@@ -1,5 +1,5 @@
 {
-  "name": "donot-cache",
+  "name": "@donotjs/donot-cache",
   "version": "1.0.0",
   "description": "Base abstract class for cache plugins - used for developing cache plugins for donot.",
   "main": "index.js",
