@@ -1,0 +1,19 @@
+{
+  "name": "donot-cache",
+  "version": "1.0.0",
+  "description": "Base cache - used for developing cache plugins for donot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donotjs/donot-cache.git"
+  },
+  "author": "Kristian Trenskow <trenskow@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donotjs/donot-cache/issues"
+  },
+  "homepage": "https://github.com/donotjs/donot-cache#readme"
+}
