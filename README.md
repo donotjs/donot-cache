@@ -35,6 +35,8 @@ Implement your cache plugins as the example below.
     }
     
     module.exports = exports = MyCache;
+
+> Notice: Do not call the super constructor as it only throws an error telling, that the class cannot be directly used as a cache plugin.
     
 # License
 
