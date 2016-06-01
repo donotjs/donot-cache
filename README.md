@@ -8,7 +8,7 @@ This only contains an abstract class that all cache plugins inherit from. It can
 Implement your cache plugins as the example below.
 
     const Cache = require('donor-cache');
-    
+
     class MyCache extends Cache {
         construct() {
             // Do your constructor work.
@@ -33,10 +33,8 @@ Implement your cache plugins as the example below.
         	});
         }
     }
-    
-    module.exports = exports = MyCache;
 
-> Notice: Do not call the super constructor as it only throws an error telling, that the class cannot be directly used as a cache plugin.
+    module.exports = exports = MyCache;
     
 # License
 
