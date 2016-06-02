@@ -2,19 +2,13 @@
 
 class Cache {
 	get(filename) {
-		return new Promise((resolved) => {
-			resolved();
-		});
+		return Promise.resolve();
 	}
 	set(filename, data) {
-		return new Promise((resolved) => {
-			resolved();
-		});
+		return Promise.resolve();
 	}
 	invalidate(filename) {
-		return new Promise((resolved) => {
-			resolved();
-		});
+		return Promise.resolve();
 	}
 }
 
